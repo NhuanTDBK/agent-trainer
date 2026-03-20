@@ -27,6 +27,7 @@ To set up a new experiment, work with the user to:
 ## Phase 3: The Optimization Loop
 
 This loop is executed for every new experimental idea. The max running time for any single full-scale experiment is **24 hours** (wall-clock time).
+Each loop will save checkpoints and results to ensure that progress is not lost and that the human can review the evolution of the experiments clearly using skill `skills/save-checkpoint`.
 
 For every iteration, follow these steps exactly:
 
